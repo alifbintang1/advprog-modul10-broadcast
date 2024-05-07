@@ -18,3 +18,14 @@ Gambar diatas adalah gambar dari server dan client yang tidak memiliki port yang
 
 ![alt text](image/ss3.png)
 Gambar diatas adalah kondisi ketika client dan server sudha berada di port yang sama yaitu 8080, dengan port yang sama ini menunjukkan bahwa client dan server dapat terkoneksi. Ini menunjukkan bahwa jika client diubah portnya maka server juga harus diubah karena ini adalah komunikasi 2 arah antar server dan client
+
+__2.3 : Small changes, add IP and Port__
+
+
+![alt text](image/ss5.png)
+
+Dengan edit kode berikut, diharapkan ketika satu client mengirimkan pesan ke server dan server mengirimkan ke semua clientnya akan dikirim jg IP dan port dari client yang mengirimkan pesan dengan variabel `addr` yang sudah dipersiapkan dalam `bcast_tx` sebgai wadah pesan yang digunakan.
+
+Berikut hasilnya
+
+![alt text](image/ss4.png)
